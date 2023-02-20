@@ -6,10 +6,12 @@
 .header {
     position: relative;
     width: 100%;
+    margin: ;
     height: 100vh;
     background: #eff4fd;
-    background-image: url(images/Ojokmichaelocan.jpg);
+    background-image: url(images/ojokmichaelocanprofile.jpg);
     background-repeat: no-repeat;
+    
 
 }
 .header a {
@@ -18,4 +20,12 @@
     text-decoration: none;
     padding-right: 5px;
     margin-right: 30px;
+    font-size: 25px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero {
+    padding-left: 50px;
+    padding-top: 150px;
+    color: rgb(31, 30, 30);
 }
