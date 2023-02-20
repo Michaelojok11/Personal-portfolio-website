@@ -24,6 +24,9 @@
     color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.header a :hover{
+    background-color: black;
+}
 .hero {
     padding-left: 50px;
     padding-top: 150px;
@@ -36,8 +39,32 @@
     padding: 20px;
     width: 800px;
     font-weight: bold;
-    background-color: rgb(65, 66, 67);
+    background-color: rgb(126, 129, 129);
     border-radius: 15px;
     text-align: justify;
+}
+button {
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(92, 92, 175);
     
+} 
+
+button a {
+    height: 25px;
+    width: 200px; 
+}
+/* 
+.hero button a {
+    height: 30px;
+    margin: 10px;
+    margin-left: 50px;
+    width: 150px;
+} */
+.services {
+    background-color: black;
+}
+
+h1 {
+    color: white;
 }
