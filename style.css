@@ -8,8 +8,8 @@
     width: 100%;
     margin: ;
     height: 100vh;
-    background: #eff4fd;
-    background-image: url(images/ojokmichaelocanprofile.jpg);
+   color: white;
+    background-image: url(images/background/background_image.jpg);
     background-repeat: no-repeat;
     
 
@@ -21,7 +21,7 @@
     padding-right: 5px;
     margin-right: 30px;
     font-size: 25px;
-    color: black;
+    color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header a:hover{
