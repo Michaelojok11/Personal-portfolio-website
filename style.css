@@ -29,11 +29,57 @@
     border-radius: 5px;
  
 }
-
-.hero {
-    padding-left: 50px;
+/* profile */
+.profile {
+    display: flex;
+   padding: 10px;
     padding-top: 150px;
-    color: rgb(31, 30, 30);
+    color: rgb(245, 230, 230);
+}
+.profile1 {
+    width: 70%;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile1 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color: antiquewhite;
+}
+
+.profile1 button {
+    margin-top: 20px;
+    /* width: 250px; */
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    padding-right: ;
+}
+.profile1 button a {
+      text-align: center;
+}
+
+.profile2{
+    width: 30%;
+    padding-right: 20px;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.profile2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+/* .hero {
+    width: 60%; 
+}
+
+.image {
+    width: 40%;
 }
 
 .hero p {
@@ -57,7 +103,7 @@ button a {
 }
 .header .hero button a:hover {
     background-color: rgb(76, 76, 82); 
-}
+} */
 
 .services {
     background-color: black;
@@ -76,6 +122,6 @@ button a {
 
 
 h1 {
-    font-size: 40px;
-    color: rgb(34, 17, 17);
+    font-size: 45px;
+    color: white;
 }
