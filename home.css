@@ -18,16 +18,18 @@
     float: right;
     text-align: center;
     padding: 16px 14px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+.navbar a:hover {
+    color: grey;
 }
 
 .profile {
     color: white;
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -36,6 +38,26 @@
     width: 70%;
     margin: 5px;
     padding: 5px;
+}
+.profile1 {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.profile1 button {
+    margin-top: 30px;
+    /* width: 250px;  */
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.profile1 button a {
+    text-decoration: none;
+    color: rgb(214, 206, 206);
+    font-size: 15px;
+    font-weight: bold;
 }
 .profile2 {
     width: 30%;
