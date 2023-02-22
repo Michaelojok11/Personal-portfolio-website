@@ -1,31 +1,48 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: sans-serif ;
 }
-.header {
+
+.mainheader {
+        position: relative;
+        width: 100%;
+        margin:0;
+        height: 90vh;
+       color: white;
+        background-image: url(images/background/background_image.jpg);
+        background-repeat: no-repeat;
+    }
+
+
+/* .header {
     position: relative;
     width: 100%;
-    margin: ;
-    height: 100vh;
+    margin:0;
+    height: 90vh;
    color: white;
     background-image: url(images/background/background_image.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
-
 }
-.header a {
+.mainheader .header a {
+    float: left;
+    margin: 50px;
+    
+}
+
+ .header a {
     float: right;
     margin: 20px;
     text-decoration: none;
     padding-right: 5px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     font-size: 25px;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header a:hover{
-    background-color: rgb(73, 64, 64);
+    color: rgb(73, 64, 64);
     border-radius: 5px;
  
 }
@@ -43,15 +60,16 @@
     margin-right: 20px;
 }
 .profile1 p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: justify;
     color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .profile1 button {
-    margin-top: 20px;
-    /* width: 250px; */
+    margin-top: 30px;
+    /* width: 250px;  */
     background-color: black;
     border-radius: 10px;
     text-align: center;
@@ -60,6 +78,10 @@
 }
 .profile1 button a {
       text-align: center;
+}
+.profile1 button a:hover{
+   
+    color: rgb(73, 64, 64);
 }
 
 .profile2{
@@ -74,36 +96,6 @@
     margin-right: auto;
     border-radius: 50%;
 }
-/* .hero {
-    width: 60%; 
-}
-
-.image {
-    width: 40%;
-}
-
-.hero p {
-    font-size: 25px;
-    color: white;
-    padding: 20px;
-    width: 800px;
-    font-weight: bold;
-    background-color: rgb(126, 129, 129);
-    border-radius: 15px;
-    text-align: justify;
-}
-button {
-    margin: 15px;
-    border-radius: 10px;
-    background-color: rgb(76, 76, 82);  
-} 
-
-button a {
-    width: 200px; 
-}
-.header .hero button a:hover {
-    background-color: rgb(76, 76, 82); 
-} */
 
 .services {
     background-color: black;
@@ -124,4 +116,4 @@ button a {
 h1 {
     font-size: 45px;
     color: white;
-}
+} */
