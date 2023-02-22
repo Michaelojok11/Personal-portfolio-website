@@ -74,6 +74,10 @@
     background-color: black;
     padding-top: 20px;
 }
+.services1 p {
+    color: white;
+    font-size: 25px;
+}
 .services2 {
     display: flex;
     color: white;
