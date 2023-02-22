@@ -71,7 +71,7 @@
     border-radius: 50%;
 }
 .services {
-    background-color: rgb(43, 37, 37);
+    background-color: rgb(0, 0, 0);
     padding-top: 20px;
 }
 .services1 p {
@@ -85,7 +85,7 @@
 }
 .services2 div {
     width: 33.3%;
-    /* margin: 60px; */
+    margin: 60px;
     padding: 10px;
     margin-top: 40px;
 }
