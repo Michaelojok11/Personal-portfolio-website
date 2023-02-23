@@ -106,7 +106,7 @@
 }
 
 .services2 p {
-    font-size: 20px;
+    font-size: 21px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -135,6 +135,9 @@ h1 {
     height: 500px;
     width: 100%;
     background-color: rgb(21, 20, 20);
+}
+.ratings h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .ratings div {
     width: 40%;
@@ -177,16 +180,29 @@ footer div {
     color: white;
 }
 footer div h4 {
-    font-size: 28px;
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
+  margin-left: 40px;
+    padding: 20px;
 }
- footer.quicklinks ul li a {
+ footer div a {
     text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 30px;
-    list-style-type:  none;
-    list-style: none ;
+    color: rgb(108, 102, 102);
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+footer div img {
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+    padding-left: 20px;
+    
+}
+footer div ul li {
+    font-size: 24px;
+    color: rgb(108, 102, 102);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
