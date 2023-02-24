@@ -42,7 +42,7 @@
 .services {
     background-color: rgb(16, 16, 16);
     padding-top: 5px;
-    height: 520px;
+    height: 550px;
 }
 
 /* services2 */
@@ -65,10 +65,14 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    width: 350px;
-    height: 470px;
+    width: 450px;
+    height: 500px;
+    padding-left: 200px;
 }
-
+.services2 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
 /* heading 1 */
 h1 {
     font-size: 45px;
