@@ -34,15 +34,15 @@
     padding-top: 80px;  
 }
 .myprofile p {
-    color: rgb(244, 239, 239);
-    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
 }
 
 /* services */
 .services {
     background-color: rgb(16, 16, 16);
     padding-top: 5px;
-    height: 500px;
+    height: 520px;
 }
 
 /* services2 */
@@ -59,6 +59,14 @@
     width: 50%;
     margin: 10px;
     padding: 10px;
+}
+.services2 div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 350px;
+    height: 470px;
 }
 
 /* heading 1 */
