@@ -34,92 +34,31 @@
     padding-top: 80px;  
 }
 .myprofile p {
-    color: rgb(255, 255, 255);
+    color: rgb(244, 239, 239);
     padding-top: 10px;
-}
-
-.profile1 button {
-    margin-top: 30px;
-    /* width: 250px;  */
-    background-color: rgb(10, 10, 10);
-    border-radius: 10px;
-    text-align: center;
-    width: 150px;
-    height: 40px;
-    margin-left: 50px;
-    
-}
-.profile1 button a {
-    text-decoration: none;
-    color: rgb(214, 206, 206);
-    font-size: 17px;
-    font-weight: bold;
-}
-.profile2 {
-    width: 30%;
-    margin: 5px;
-    padding: 5px;
-}
-.profile2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
 }
 
 /* services */
 .services {
     background-color: rgb(16, 16, 16);
-    padding-top: 20px;
-    height: 450px;
+    padding-top: 5px;
+    height: 500px;
 }
-/* services1 */
-.services1 p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.services1 h1 {
-    color: rgb(208, 205, 207);
-    text-align: center;
-}
+
 /* services2 */
-.services2 img {
-    width: 70px;
-    height: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-
-.services2 h3 {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.services2 p {
-    font-size: 21px;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 .services2 {
     display: flex;
     color: white;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .services2 div {
-    width: 33.3%;
+    width: 50%;
     margin: 10px;
     padding: 10px;
-}
-.services2 div:hover{
-    color: aquamarine;
 }
 
 /* heading 1 */
