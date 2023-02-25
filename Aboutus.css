@@ -78,8 +78,9 @@
     font-size: 20px;
 }
 .services2 div p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: century gothic;
+    font-size: 20px;
     color: aliceblue;
     text-align: justify;
 }
