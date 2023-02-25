@@ -76,6 +76,8 @@
 .services2 div p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+    color: aliceblue;
+    text-align: justify;
 }
 /* heading 1 */
 h1 {
