@@ -98,18 +98,15 @@ h1 {
     width: 100%;
     background-color: rgb(21, 20, 20);
     display: flex;
+    color: white;
 }
 
 .ratings1 {
     width: 50%; 
-
 }
-.ratings div img {
-    width: 70px;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+.ratings .ratings1 h1 {
+    text-align: center;
 }
 .ratings div h2 {
     text-align: center;
