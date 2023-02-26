@@ -42,7 +42,7 @@
 .services {
     background-color: rgb(16, 16, 16);
     padding-top: 5px;
-    height: 600px;
+    height: 700px;
 }
 
 /* services2 */
@@ -72,6 +72,7 @@
 .services2 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
+    color: rgb(135, 159, 181);
 }
 .services2 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
