@@ -103,8 +103,8 @@ h1 {
 
 .ratings1 {
     width: 50%; 
-    margin: 20px;
-    padding-left: 40px;
+    margin: 10px;
+    padding-left: 100px;
 }
 
 .ratings .ratings1 h1 {
@@ -116,7 +116,7 @@ h1 {
 .ratings .ratings1 p {
     text-align: left;
     padding-top: 10px;
-    font-family: ;
+    /* font-family: ; */
 }
 
 .ratings div h2 {
