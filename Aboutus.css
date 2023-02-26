@@ -97,20 +97,11 @@ h1 {
     height: 500px;
     width: 100%;
     background-color: rgb(21, 20, 20);
+    display: flex;
 }
-.ratings h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.ratings div {
-    width: 40%;
-    height: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    padding: 10px;
-    border: 2px solid;
-    background-color: rgb(205, 209, 213);
-    margin-top: 20px;
+
+.ratings1 {
+    width: 50%; 
 
 }
 .ratings div img {
