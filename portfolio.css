@@ -38,41 +38,13 @@
     padding-top: 20px;
 }
 
-/* services */
-.services {
-    background-color: rgb(16, 16, 16);
-    padding-top: 5px;
-    height: 750px;
-}
-
-/* services2 */
-
-.services2 {
-    display: flex;
-    color: white;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+.portfolio {
+    width: 100%;
+    height: 350px;
+    background-color: black;
 }
 
 
-.services2 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
-    color: rgb(135, 159, 181);
-}
-
-.services2 h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-.services2 div p {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-family: century gothic;
-    font-size: 20px;
-    color: aliceblue;
-    text-align: justify;
-}
 /* heading 1 */
 
 h1 {
