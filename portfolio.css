@@ -40,15 +40,16 @@
 
 .portfolio {
     width: 100%;
-    height: 350px;
+    height: 1000px;
     background-color: black;
-    display: flex;
+    margin: 0;
+    
     color: white;
 }
 
 .portfoliobuttons{
     margin-left: 500px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .portfoliobuttons button {
     width: 150px;
@@ -65,8 +66,38 @@
    
 }
 
+/* websites */
+.websites {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.websites div {
+    width: 30%;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+.websites div img {
+    width: 490px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+/*  */
+/* .websites .desc {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-right: 5px;
+    margin-right: 5px;
+    
+} */
 
 
 /* heading 1 */
