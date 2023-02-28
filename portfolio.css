@@ -42,6 +42,19 @@
     width: 100%;
     height: 350px;
     background-color: black;
+    display: flex;
+    color: white;
+}
+
+.portfoliobuttons{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.portfoliobuttons button {
+    width: 150px;
+    height: 60px;
+    margin-right: 10px;
+    padding: 10px;
 }
 
 
