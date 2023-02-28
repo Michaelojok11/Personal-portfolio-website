@@ -74,62 +74,15 @@
     text-align: justify;
 }
 /* heading 1 */
+
 h1 {
     font-size: 45px;
     color: white;
 }
 
 /* ratings */
-.ratings {
-    height: 500px;
-    width: 100%;
-    background-color: rgb(21, 20, 20);
-    display: flex;
-    color: white;
-}
 
-.ratings1 {
-    width: 50%; 
-    margin: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: justify;
-}
 
-.ratings .ratings1 h1 {
-    text-align: left;
-    padding-top: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-}
-
-.ratings .ratings1 p {
-    text-align: left;
-    padding-top: 10px;
-    font-family: century gothic;
-    font-size: larger;
-    text-align: justify;
-    color: rgb(207, 210, 213);
-}
-
-.ratings div h2 {
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.ratings2 {
-    width: 50%; 
-    margin: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-}
-.ratings2 img {
-    width: 750px;
-    height: 330px;
-    border-radius: 5px;
-}
 
 
 /* footer */
