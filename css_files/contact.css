@@ -40,7 +40,7 @@
 
 .contact {
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     background-color: black;
     margin: 0;
     
@@ -54,14 +54,16 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
-/* buttons a */
-.contact1 button a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+.contact1 h1 {
+    font-size: 32px;
 }
+
+.contact1 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
 
 /* websites */
 .websites {
