@@ -22,6 +22,7 @@
     text-decoration: none; 
     padding-top: 30px;
 }
+
 .navbar a:hover {
     color: grey;
 }
@@ -65,44 +66,54 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
 
-/* websites */
-.websites {
+/* gis */
+.gis {
     display: flex;
     margin-top: 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
-.websites div {
-    width: 30%;
-    height: 350px;
+ /* .gis div {
+    height: 700px;
     margin-bottom: 80px;
     margin-left: 25px;
     margin-right: 25px;
+} */
+
+.gis_column {
+    width: 100%;
+    display: flex;
 }
 
-.websites div img {
-    width: 490px;
+.gis_column1 {
+    width: 70%;
+    margin: 10px;
+}
+
+.gis_column2 {
+    width: 30%;
+}
+
+.gis div img {
+    width: 1000px;
     height: 320px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-.websites p {
-
+} 
+.gis_column2 p {
+    text-align: left;
+    text-align: justify;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    margin-right: 5px;
-    margin-right: 5px;
-    margin-top: 15px;
     color: rgb(163, 159, 159);
-} 
-
-.websites div img:hover{
-    border: 5px solid;
-
 }
-/* End website section */
+
+
+.gis div img:hover{
+    border: 5px solid;
+}
+
+/* End of gis section */
 
 
 /* heading 1 */
