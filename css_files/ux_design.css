@@ -98,6 +98,11 @@
     margin-top: 15px;
     color: rgb(163, 159, 159);
 } 
+
+.websites div img:hover{
+    border: 5px solid;
+}
+
 /* End website section */
 
 
