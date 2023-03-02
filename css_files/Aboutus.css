@@ -31,7 +31,7 @@
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    padding-top: 80px;  
+    padding-top: 40px;  
 }
 .myprofile p {
     color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@
     border-radius: 5px;
     width: 550px;
     height: 700px;
-    padding-left: 200px;
+    padding-left: 50px;
 }
 .services2 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -102,11 +102,12 @@ h1 {
 }
 
 .ratings1 {
-    width: 50%; 
+    width: 60%; 
     margin: 10px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: justify;
+    height: 450px;
 }
 
 .ratings .ratings1 h1 {
@@ -132,15 +133,16 @@ h1 {
 }
 
 .ratings2 {
-    width: 50%; 
+    width: 40%; 
     margin: 10px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
+    height: 450px;
 }
 .ratings2 img {
-    width: 750px;
-    height: 330px;
+    width: 450px;
+    height: 400px;
     border-radius: 5px;
 }
 
