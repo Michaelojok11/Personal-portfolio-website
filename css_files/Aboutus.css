@@ -104,8 +104,8 @@ h1 {
 .ratings1 {
     width: 60%; 
     margin: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: justify;
     height: 450px;
 }
@@ -141,8 +141,8 @@ h1 {
     height: 450px;
 }
 .ratings2 img {
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 420px;
     border-radius: 5px;
 }
 
