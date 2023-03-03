@@ -71,14 +71,12 @@
     padding-left: 10px;
 }
 
-
 .services2 .mydetails {
     width: 80%;
     /* margin: 20px; */
     margin: 20px;
     padding: 10px;
 }
-
 
 .services2 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -148,7 +146,7 @@ h1 {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
-    height: 450px;
+    height: 600px;
 }
 .ratings2 img {
     width: 400px;
