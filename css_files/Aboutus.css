@@ -41,15 +41,15 @@
     padding-top: 20px;
 }
 
-/* services */
-.services {
+/* image_sec */
+.image_sec {
     background-color: rgb(16, 16, 16);
     padding-top: 5px;
     height: 600px;
     display: flex;
 }
 
-/* services2 */
+/* image_sec2 */
 
 .myimage {
     width: 20%;
@@ -74,17 +74,17 @@
     padding: 10px;
 }
 
-.services h1 {
+.image_sec h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     color: rgb(135, 159, 181);
 }
-.services h4 {
+.image_sec h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: white;
 }
-.services p {
+.image_sec p {
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: century gothic;
     font-size: 20px;
