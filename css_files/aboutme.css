@@ -49,29 +49,29 @@
     display: flex;
 }
 
-/* image_sec2 */
 
 .myimage {
-    width: 20%;
-    margin: 20px;
-    padding: 10px;
+    width: 30%;
+ 
 }
 
-/* .myimage img {
-    /* display: block;
+.myimage img {
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto; 
     border-radius: 5px;
     width: 350px;
     height: 400px;
-    /* padding-left: 10px; */
-} */
+    margin-top: 10px;
+} 
 
 .mydetails {
-    width: 80%;
-    /* margin: 20px; */
-    margin: 20px;
-    padding: 10px;
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
 }
 
 .image_sec h1 {
@@ -97,8 +97,9 @@ h1 {
     color: white;
 }
 
-/* ratings */
-.ratings {
+/* mygoals */
+/* start of the code */
+.mygoal {
     height: 500px;
     width: 100%;
     background-color: rgb(21, 20, 20);
@@ -106,7 +107,7 @@ h1 {
     color: white;
 }
 
-.ratings1 {
+.mygoal1 {
     width: 60%; 
     margin: 10px;
     padding-left: 50px;
@@ -115,13 +116,13 @@ h1 {
     height: 450px;
 }
 
-.ratings .ratings1 h1 {
+.mygoal .mygoal1 h1 {
     text-align: left;
     padding-top: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
-.ratings .ratings1 p {
+.mygoal .mygoal1 p {
     text-align: left;
     padding-top: 10px;
     font-family: century gothic;
@@ -130,14 +131,14 @@ h1 {
     color: rgb(207, 210, 213);
 }
 
-.ratings div h2 {
+.mygoal div h2 {
     text-align: center;
     font-size: 25px;
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.ratings2 {
+.mygoal2 {
     width: 40%; 
     margin: 10px;
     padding-left: 50px;
@@ -145,10 +146,13 @@ h1 {
     padding-top: 10px;
     height: 600px;
 }
-.ratings2 img {
-    width: 400px;
-    height: 420px;
+.mygoal2 img {
+    width: 600px;
+    height: 330px;
     border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
