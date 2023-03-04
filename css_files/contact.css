@@ -74,6 +74,21 @@
     margin-top: 20px;
 }
 
+.contact_form img {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+.contact_form p {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
 
 
 
