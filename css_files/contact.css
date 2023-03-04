@@ -114,12 +114,14 @@ form {
     margin-bottom: 10px;
   }
 
+  /* label */
 label {
     font-size: 16px;
     padding: 12px 12px 12px 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* submit button */
 
 input[type=submit]{
     width: 10%;
@@ -130,9 +132,9 @@ input[type=submit]{
     background: #3f4d32;
     color: white;
     cursor: pointer;
-    
   }
 
+  
 h1 {
     font-size: 45px;
     color: white;
