@@ -97,9 +97,9 @@
 form {
     width: 800px;
     height: 500px;
-    border: 2px solid;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* border: 2px solid; */
+    margin-left: 260px;
+    margin-right: 260px;
     margin-top: 50px;
 }
 
@@ -110,9 +110,28 @@ form {
     border-radius: 4px;
     resize: vertical;
     margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
   }
 
+label {
+    font-size: 16px;
+    padding: 12px 12px 12px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+input[type=submit]{
+    width: 10%;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
+    font-size: 15px;
+    background: #3f4d32;
+    color: white;
+    cursor: pointer;
+    
+  }
 
 h1 {
     font-size: 45px;
