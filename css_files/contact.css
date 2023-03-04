@@ -129,8 +129,8 @@ input[type=submit]{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 4px;
     font-size: 15px;
-    background: #1c2c0a;
-    color: white;
+    background: #92babb;
+    color: black;
     cursor: pointer;
   }
 
