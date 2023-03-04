@@ -68,10 +68,11 @@
 .contact_form{
     display: flex;
     margin: 10px;
+    
 }
 .contact_form div {
     width: 33.3%;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .contact_form img {
@@ -90,11 +91,28 @@
     color: rgb(153, 155, 156);
 }
 
-
-
-
-
 /* heading 1 */
+
+/* form */
+form {
+    width: 800px;
+    height: 500px;
+    border: 2px solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+ input[type=text], textarea {
+    width: 96.5%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 10px;
+  }
+
+
 
 h1 {
     font-size: 45px;
