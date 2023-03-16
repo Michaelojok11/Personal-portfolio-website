@@ -1460,3 +1460,9 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.portfolio1 img {
+  width: 350px;
+  height: 250px;
+
+}
