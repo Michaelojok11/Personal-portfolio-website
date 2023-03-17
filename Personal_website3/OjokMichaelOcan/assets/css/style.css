@@ -41,17 +41,11 @@ a:hover {
 
 
 .box-shadow,
-.work-box,
 .service-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
-  text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
-}
 
 .display-5 {
   font-size: 2.5rem;
