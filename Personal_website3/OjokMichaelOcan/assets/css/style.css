@@ -35,10 +35,9 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.p-r {
+/* .p-r {
   position: relative;
-}
-
+} */
 
 .box-shadow,
 .service-box,
@@ -46,25 +45,6 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-
-.display-5 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.display-6 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.avatar {
-  width: 32px;
-  height: 32px;
-  margin-right: 4px;
-  overflow: hidden;
-}
 
 .bg-image {
   background-repeat: no-repeat;
@@ -109,17 +89,12 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
-.sect-4 {
-  padding: 4rem 0;
-}
-
 .sect-pt4 {
   padding-top: 4rem;
 }
 
 .sect-mt4 {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 /*--/ Title s /--*/
