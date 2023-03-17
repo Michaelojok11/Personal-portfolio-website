@@ -1368,9 +1368,15 @@ footer .credits a {
   justify-content: center;
 }
 .button1 button{
-  width: 200px;
-  margin-left: 10px;
+  width: 210px;
+  margin-left: 15px;
   justify-content: center;
+  background-color: #373b3f;
+  border-radius: 5px;
+}
+
+.button1 button a {
+  color: white;
 }
 /* media queries for small devices should be written */
 
