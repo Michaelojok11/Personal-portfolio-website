@@ -1272,6 +1272,10 @@ footer .credits a {
   border-radius: 5px;
 }
 
+.button1 button:hover{
+  background-color: grey;
+}
+
 .button1 button a {
   color: white;
 }
