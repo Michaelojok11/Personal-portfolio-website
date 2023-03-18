@@ -22,9 +22,22 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-    button{
-
+    
+    .nav-item {
+      width: 200px;
+      margin-left: 15px;
+      justify-content: center;
+      background-color: grey;
+      border-radius: 5px;
     }
+
+    .nav-item a {
+      color: white;
+      justify-content: center;
+      text-align: center;
+    }
+    
+  
   </style>
 
   </head>
@@ -85,52 +98,249 @@
     </div>
 
     <div class="container mt-3">
-      <h2>Toggleable Pills</h2>
-      <br>
+      <div class="row">
+        <div class="col-md-1" style="visibility: hidden;">
+
+        </div>
+        <div class="col-md-10">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#showall">Show All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#websites"> Websites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#uidesign"> UX/UI Designs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#gis"> GIS </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-1" style="visibility: hidden;">
+        </div>
+      </div>     
       <!-- Nav pills -->
-      <ul class="nav nav-pills" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="pill" href="#showall">Show All</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
-        </li>
-      </ul>
+      
     
       <!-- Tab panes -->
       <div class="tab-content">
+        <!-- Show All -->
         <div id="showall" class="container tab-pane active"><br>
           <h3>Show All</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <div class="row mt-4">
+            <div class="col-md-4 ">
+        <div class="portfolio1">
+          <img src="images/portfolio/websites/personal_website.jpg" alt="">
+          <p><a href="#" style="text-align: center;" > My Personal website</a> </p>
+        </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/first_website.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Green Agribusiness </a> </p>
+    
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/Mic_construction_company.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/1.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/visual.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/gis/median_income_map.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+        </div>
+
         </div>
         
-        <div id="menu1" class="container tab-pane fade"><br>
-          <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <!-- Websites -->
+        <div id="websites" class="container tab-pane fade"><br>
+          <h3>Websites</h3>
+          <div class="row mt-4">
+            <div class="col-md-4 ">
+        <div class="portfolio1">
+          <img src="images/portfolio/websites/personal_website.jpg" alt="">
+          <p><a href="#" style="text-align: center;" > My Personal website</a> </p>
         </div>
-        <div id="menu2" class="container tab-pane fade"><br>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/first_website.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Green Agribusiness </a> </p>
+    
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/Mic_construction_company.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/1.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/visual.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/gis/median_income_map.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+      <!-- UX/UI Design -->
+        <div id="uidesign" class="container tab-pane fade"><br>
           <h3>Menu 2</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          <div class="row mt-4">
+            <div class="col-md-4 ">
+        <div class="portfolio1">
+          <img src="images/portfolio/websites/personal_website.jpg" alt="">
+          <p><a href="#" style="text-align: center;" > My Personal website</a> </p>
         </div>
-        <div id="menu2" class="container tab-pane fade"><br>
-          <h3>Menu 2</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/first_website.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Green Agribusiness </a> </p>
+    
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/Mic_construction_company.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/1.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/visual.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/gis/median_income_map.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
+    
+            </div>
+          </div>
+
         </div>
-        
+        </div>
+
+        <!-- GIS -->
+        <div id="gis" class="container tab-pane fade"><br>
+          <h3> GIS </h3>
+
+            <div class="row mt-4">
+            <div class="col-md-4 ">
+        <div class="portfolio1">
+          <img src="images/portfolio/websites/personal_website.jpg" alt="">
+          <p><a href="#" style="text-align: center;" > My Personal website</a> </p>
+        </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/first_website.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Green Agribusiness </a> </p>
+    
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/websites/Mic_construction_company.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/1.jpg" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/UXUI Designs/visual.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="portfolio1">
+              <img src="images/portfolio/gis/median_income_map.png" alt="">
+              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>    
+            </div>
+          </div>
+        </div>
+        </div>        
       </div>
     </div>
-    
-  
-
-
 
   </main>
+  <!-- End of Main -->
 
   <!-- ======= Footer ======= -->
   <footer class="bg-black">
