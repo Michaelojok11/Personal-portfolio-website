@@ -1300,3 +1300,9 @@ footer .credits a {
 .showmore button a {
   color: white;
 }
+
+/* GIS */
+.gis img {
+  width: 700px;
+  height: 400px;
+}
