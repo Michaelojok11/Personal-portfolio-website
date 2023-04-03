@@ -1291,14 +1291,15 @@ footer .credits a {
 /* showmore */
 .showmore button {
   width: 100%;
-  height: 30px;
+  height: 40px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background-color: #3581cc;
+  background-color: #2b2d30;
 }
 
 .showmore button a {
   color: white;
+  font-size: 20px;
 }
 
 /* GIS */
