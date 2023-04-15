@@ -1253,33 +1253,32 @@ footer .credits a {
   text-align: center;
 }
 
-/* showmore */
+/*  start of showmore */
 
 .rowdivision {
   display: flex;
+  padding-bottom: 10px;
 }
 
 .rowdivision div{
   width: 33.3%;
 }
-.showmore{
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-}
 
-.showmore button {
-  width: 100%;
-  height: 40px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+.rowdivision2 {
   background-color: #111924;
+  height: 40px;
+  border-radius: 5px;  
 }
 
-.showmore button a {
+.rowdivision2 center a { 
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  
 }
+/* End of show more */
+
 
 /* GIS */
 .gis img {
