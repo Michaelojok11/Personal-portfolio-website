@@ -1262,6 +1262,11 @@ footer .credits a {
 .rowdivision div{
   width: 33.3%;
 }
+.showmore{
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
 
 .showmore button {
   width: 100%;
