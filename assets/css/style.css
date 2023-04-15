@@ -1254,6 +1254,15 @@ footer .credits a {
 }
 
 /* showmore */
+
+.rowdivision {
+  display: flex;
+}
+
+.rowdivision div{
+  width: 33.3%;
+}
+
 .showmore button {
   width: 100%;
   height: 40px;
