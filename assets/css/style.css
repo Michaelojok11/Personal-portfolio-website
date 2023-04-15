@@ -1279,6 +1279,12 @@ footer .credits a {
   
 }
 /* End of show more */
+@media screen and (max-width: 768px) {
+  .rowdivision2 {
+    width: 100%;
+  }
+  
+}
 
 
 /* GIS */
