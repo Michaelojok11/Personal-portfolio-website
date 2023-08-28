@@ -168,6 +168,18 @@ nav {
     color: var(--color-gray-900);
 }
 
+.nav_toggle-open, .nav_toggle-close {
+    display: none;
+}
+
+.nav_theme-btn {
+    color: var(--color-gray-900);
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+
 /* .nav_logo img {
     border-radius: 50%;
 } */
