@@ -154,8 +154,20 @@ nav {
 .nav_logo{
     width: 2.4rem;
     aspect-ratio: 1/1;
-    
+    border-radius: 50%;
+    overflow: hidden;
 }
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_menu a {
+    color: var(--color-gray-900);
+}
+
 /* .nav_logo img {
     border-radius: 50%;
 } */
