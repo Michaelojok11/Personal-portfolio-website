@@ -42,6 +42,11 @@
     --color-blue-1:rgb(111, 109, 212);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-gray-100);
@@ -187,13 +192,17 @@ nav {
 header{
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .header_container{
     margin-top: 3rem;
     position: relative;
-    display: flex;
+}
+
+/* displaying flex */
+.header-container{
+    display: flex; 
 }
 
 .header_image{
@@ -236,12 +245,13 @@ header{
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 /* header socials */
 .header_socials{
     position: absolute;
-    bottom: 0;
+    bottom: 10rem;
     right: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -265,9 +275,7 @@ header{
 }
 
 
-.header-container{
-    /* display: flex; */
-}
+
 
 /* End of header */
 
@@ -329,7 +337,7 @@ header{
 }
 
 .about_details .btn i {
-    font-size: 1.2rem ; 
+    font-size: 1.2rem ;    
 }
 
 
