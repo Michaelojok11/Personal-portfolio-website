@@ -392,6 +392,38 @@ header{
     background: var(--color-gray-200);
 }
 
+.services_left li span {
+    background: var(--color-blue-1);
+    color: var(--color-gray-100);
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+
+.services_left li h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+.services_right {
+    border-left: 1px solid var(--color-gray-300);
+    padding-left: 6rem;
+}
+
+.services_right h3 {
+    margin-bottom: 1.5rem;
+}
+
+.section_right p {
+    margin-bottom: 0.3rem;
+}
+
+
+
+
+
+
+
 /* ========================================= End of services section =================================== */
 
 
