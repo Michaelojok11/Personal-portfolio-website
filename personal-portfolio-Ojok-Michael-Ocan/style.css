@@ -341,8 +341,6 @@ header{
     font-size: 1.2rem ;    
 }
 
-
-
 .about_card i {
     color: var(--color-blue-1);
     font-size: 1.4rem;
@@ -352,8 +350,48 @@ header{
 }
 
 
-
 .about_card:hover i {
     background: var(--color-gray-100);
     color: var(--color-blue-1);
 }
+
+/* End of about */
+
+
+
+
+
+
+
+/* =========================================Services section ========================================== */
+
+.services_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+.services_left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services_left li {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    border: 1px solid var(--color-gray-300);
+    border-radius: var(--radius-4);
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+.services_left li:hover, .services_left li.active {
+    background: var(--color-gray-200);
+}
+
+/* ========================================= End of services section =================================== */
+
+
