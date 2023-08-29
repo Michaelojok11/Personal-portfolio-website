@@ -292,9 +292,30 @@ header{
     margin: 3rem 0 1.5rem;
 }
 
-.about_card{
+.about_card {
     background: var(--color-gray-100);
     padding: 1rem;
     border-radius: var(--radius-2);
-    
+    text-align: center;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.about_card:hover {
+    background: var(--color-blue-1);
+    color: var(--color-gray-100);
+    transform: translateY(-0.8rem);
+
+}
+
+.about_card small {
+    font-size: 0.7rem;
+}
+
+.about_card i {
+    color: var(--color-blue-1);
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: var(--radius-4);
 }
