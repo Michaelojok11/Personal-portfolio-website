@@ -1,7 +1,7 @@
 /*General */
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0; 
     list-style: none;
     text-decoration: none;
     border: 0;
@@ -192,7 +192,7 @@ nav {
 header{
     display: grid;
     place-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .header_container{
@@ -285,6 +285,7 @@ header{
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 7rem;
+    height: 75vh;
 }
 
 .about_image {
