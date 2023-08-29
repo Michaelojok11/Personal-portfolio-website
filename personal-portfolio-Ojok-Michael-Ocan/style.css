@@ -269,3 +269,32 @@ header{
 }
 
 /* End of header */
+
+
+/* About container */
+.about_container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 7rem;
+}
+
+.about_image {
+    border: 1rem solid var(--color-gray-100);
+    height: fit-content;
+    max-height: 35rem;
+    overflow: hidden;
+}
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 3rem 0 1.5rem;
+}
+
+.about_card{
+    background: var(--color-gray-100);
+    padding: 1rem;
+    border-radius: var(--radius-2);
+    
+}
