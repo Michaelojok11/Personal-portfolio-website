@@ -422,7 +422,8 @@ header{
     display: flex;
     gap: 1rem;
     align-items: center;
-    margin: 4rem 0 2.5rem;
+    justify-content: center;
+    margin: 3rem 0 2.5rem;
     flex-wrap: wrap;
 }
 
@@ -438,10 +439,15 @@ header{
 
 .projects_categories li:hover {
     background: var(--color-blue-1);
-    color: var(--color-gray-100);
-    
+    color: var(--color-gray-100);    
 }
 
+
+.projects_categories li:hover,
+.projects_categories li:active, {
+    background: var(--color-blue-1);
+    color: var(--color-gray-100);    
+}
 
 
 /* =========================================End of portfolio ========================================== */
