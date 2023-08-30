@@ -448,10 +448,97 @@ header{
     background: var(--color-blue-1);
     color: var(--color-gray-100);    
 }
-.portfolio_container{
+.projects_container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18));
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 3.5rem;
 }
 
+.project{
+    background: var(--color-gray-100);
+    padding: 1.4rem;
+    border-radius: var(--radius-2);
+    transition: var(--transition);
+    /* mix-it-up animation */
+    opacity: 0;
+    animation: identifier 1.5s ease forwards ;
+}
+
+@keyframes identifier {
+    to{
+        opacity: 1;
+    }
+}
+
+.project:hover{
+    box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.1);   
+}
+
+.project_image{
+    height: auto;
+    max-height: 12rem;
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-4);
+    overflow: hidden;
+}
+
+.project p {
+    margin: 0.5rem 0 1.5rem;
+}
+
+.portfolio_cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* =========================================End of portfolio ========================================== */
+
+
+/* ========================================= What people say ========================================== */
+#showMoreButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.swiper {
+    width: var(--container-width-lg);
+    margin: 3rem auto;
+    /* height: 60vh; */
+}
+
+.swiper-wrapper {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+ .swiper-slide {
+    background: var();
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    padding: 1rem 1.2rem;
+    height: fit-content;
+    cursor: dafault;
+    user-select: none;
+    transition: var(--transition);
+ }
+
+ .swiper-slide:hover {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+ }
+ .swiper_client {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+ }
+
+.swiper_client-avatar {
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
