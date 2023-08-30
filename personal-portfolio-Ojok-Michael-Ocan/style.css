@@ -101,6 +101,7 @@ h2{
     padding: 0.4rem 1rem; 
     font-weight: 400;
     border-radius: var(--radius-4);  
+    
 }
 
 .btn.primary {
@@ -274,9 +275,6 @@ header{
     transform: translate(-0.5rem);
 }
 
-
-
-
 /* End of header */
 
 
@@ -361,8 +359,6 @@ header{
 
 
 
-
-
 /* =========================================Services section ========================================== */
 
 .services_container {
@@ -418,12 +414,34 @@ header{
     margin-bottom: 0.3rem;
 }
 
-
-
-
-
-
-
 /* ========================================= End of services section =================================== */
 
 
+/* =========================================Portfolio ========================================== */
+.projects_categories {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 4rem 0 2.5rem;
+    flex-wrap: wrap;
+}
+
+.projects_categories li {
+    background: var(--color-gray-100);
+    padding: 0.6rem 1.5rem;
+    border-radius: var(--radius-4);
+    font-weight: 500;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.projects_categories li:hover {
+    background: var(--color-blue-1);
+    color: var(--color-gray-100);
+    
+}
+
+
+
+/* =========================================End of portfolio ========================================== */

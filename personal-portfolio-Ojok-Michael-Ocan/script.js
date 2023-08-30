@@ -18,8 +18,6 @@ const removeActiveClass = () =>  {
     };
 
 
-
-
 // Add an event listener
 servicesButtons.forEach(item => {
     item.addEventListener('click', () => {
@@ -28,4 +26,8 @@ servicesButtons.forEach(item => {
         getService(serviceClass);
         item.classList.add('active');        
     })
-})
+});
+
+getService('frontend');
+
+// End of services
