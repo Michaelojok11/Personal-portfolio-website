@@ -285,7 +285,7 @@ header{
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 7rem;
-    height: 75vh;
+    height: 80vh;
 }
 
 .about_image {
