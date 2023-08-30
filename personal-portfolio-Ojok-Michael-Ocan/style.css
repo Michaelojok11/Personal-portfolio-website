@@ -444,9 +444,13 @@ header{
 
 
 .projects_categories li:hover,
-.projects_categories li:active, {
+.projects_categories li.active {
     background: var(--color-blue-1);
     color: var(--color-gray-100);    
+}
+.portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18));
 }
 
 
