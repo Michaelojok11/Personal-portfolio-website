@@ -35,7 +35,6 @@ getService('frontend');
 
 
 // mixitup portfolio
-
 const containerEl = document.querySelector('.projects_container');
 var mixer = mixitup(containerEl, {
     // disable the animation
@@ -45,8 +44,6 @@ var mixer = mixitup(containerEl, {
 });
 
 mixer.filter('*');
-
-
 
 
 //========== what people say / Swiper == testimonials==
@@ -134,3 +131,28 @@ if(window.innerWidth < 768) {
     })
 }
 // End of the close menu links
+
+
+/*======================= Theme Toggle (light & dark mode) =======================*/
+const themeBtn = document.querySelector('.nav_theme-btn');
+
+themeBtn.addEventListener('click', () => {
+    let bodyClass = document.body.classList;
+    if (!bodyClass.contains('dark')) {
+        bodyClass.add('dark');
+        // change toggle icon
+        themeBtn.innerHTML = '<i class="uil uil-sun"> </i>'
+    } else {
+        bodyClass.remove('dark');
+         // change toggle icon
+        themeBtn.innerHTML = '<i class="uil uil-moon"> </i>'
+    }
+});
+
+/*=============================== End of theme ================================*/
+
+
+
+
+
+
