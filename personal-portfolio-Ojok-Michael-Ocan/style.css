@@ -665,3 +665,96 @@ footer {
 }
 
 /*==================================== End of footer ====================================*/
+
+/*==================================== media queries ====================================*/
+
+/*==================================== medium/small devices ====================================*/
+@media(max-width: 768px){
+    /* general styles */
+
+    h1 {
+        font-size: 1.8rem;
+    }
+    p, a, figcaption {
+        font-size: 1rem;
+    }
+    .container {
+        width: var(--container-width-sm);
+    }
+    section {
+        padding: 7rem 0;
+    }
+    section > h1, p {
+        width: var(--container-width-sm);
+    }
+    /* nav_menu */
+    .nav_menu {
+        position: fixed;
+        right: 0;
+        top: 3.8rem;
+        flex-direction: column;
+        gap: 0;
+        width: fit-content;
+        /* nav-menu should displaynone unless clicked */
+        display: none;        
+    }
+
+    .nav_menu li {
+        width: 100%;       
+    }
+
+    .nav_menu li a {
+        background: var(--color-gray-200);
+        padding: 1rem 4rem;
+        width: 100%;
+        display: block;
+        border-top: 1px solid var(--color-gray-300);
+        text-align: center;
+        box-shadow: -2rem 5rem 5rem rgba(0, 0, 0, 0.3);
+    }
+    header, section, footer {
+        display: none;
+    }
+
+    /* toggle icons */
+    .nav_toggle-open, .nav_toggle-close {
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: var(--color-gray-900);        
+    }
+
+    /*  */
+    .nav_toggle-close {
+        display: none;
+    }
+
+    .nav_buttons {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .nav_menu li {
+        transform: rotateX(90deg);
+        opacity: 0;
+        animation: navkey 1s ease-in-out forwards;
+        transform-origin: top;
+    }   
+    @keyframes navkey {
+        to {
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+
+}
+
+
+
+/*==================================== media queries ====================================*/

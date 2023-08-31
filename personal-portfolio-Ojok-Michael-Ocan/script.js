@@ -91,3 +91,38 @@ document.addEventListener('DOMContentLoaded', function() {
         showMoreButton.style.display = 'none';
     });
 });
+
+
+/*==================== Toggle navbar (small devices)==============*/
+
+const navMenu = document.querySelector('.nav_menu');
+const navOpenBtn = document.querySelector('.nav_toggle-open');
+const navCloseBtn = document.querySelector('.nav_toggle-close');
+
+
+// Add an event listener
+
+// create a function to run
+
+ /*==================== 
+ Upon clicking the navOpen Btn run the function OpenNavHandler
+ ==============*/
+
+const openNavHandler = () => {
+    navMenu.style.display = 'flex';
+    navOpenBtn.style.display = 'none';
+    navCloseBtn.style.display = 'inline-block';
+}
+
+const closeNavHandler = () => {
+    navMenu.style.display = 'none';
+    navOpenBtn.style.display = 'inline-block';
+    navCloseBtn.style.display = 'none';
+}
+
+// 
+navOpenBtn.addEventListener('click',openNavHandler)
+
+navCloseBtn.addEventListener('click',closeNavHandler)
+
+// 
