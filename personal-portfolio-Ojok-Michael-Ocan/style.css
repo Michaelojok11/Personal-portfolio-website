@@ -1,4 +1,4 @@
-/*General */
+/*==================================== General ======================================*/
 *{
     margin: 0;
     padding: 0; 
@@ -134,8 +134,10 @@ section:nth-child(odd) {
     background: var(--color-gray-200);
 }
 
-/* End of general variables */
+/*==================================== End of general variables ======================================*/
 
+
+/*==================================== Navbar ======================================*/
 nav {
     background: var(--color-nav-bg);
     border-bottom: 1px solid var(--color-gray-300);
@@ -187,9 +189,11 @@ nav {
     cursor: pointer;
 }
 
-/* End of navbar */
+/*==================================== End of Navbar ===================================*/
 
-/* Header */
+
+
+/*==================================== Header ======================================*/
 header{
     display: grid;
     place-items: center;
@@ -275,10 +279,10 @@ header{
     transform: translate(-0.5rem);
 }
 
-/* End of header */
+/*==================================== End of header ======================================*/
 
 
-/* About container */
+/*==================================== About ======================================*/
 .about_container {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -495,7 +499,7 @@ header{
 /* =========================================End of portfolio ========================================== */
 
 
-/* ========================================= What people say ========================================== */
+/* ========================================= What people say / Recommendations ================================== */
 #showMoreButton {
     display: block;
     margin: 0 auto;
@@ -511,8 +515,9 @@ header{
 
 .swiper-wrapper {
     margin-top: 4rem;
+    /* style pagination */
     padding-bottom: 4rem;
-    
+    height: fit-content ;    
 }
 
  .swiper-slide {
@@ -542,3 +547,58 @@ header{
     border-radius: 50%;
     overflow: hidden;
 }
+
+.swiper-pagination-bullets {
+    color: var(--color-blue-1);
+}
+/*==================================== End of swiper ======================================*/
+
+
+
+
+/*==================================== Contact ===========================================*/
+section.contact{
+    background: var(--color-blue-1);
+}
+
+.contact_container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 6rem;
+}
+
+.contact_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.contact_list-item {
+    background: var(--color-gray-100);
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    color: var(--color-gray-900);
+    border-radius: var(--radius-3);
+    font-size: 1.6rem;
+    transition: var(--transition);
+}
+
+.contact_list-item:hover {
+    background: var(--color-gray-900);
+    color: var(--color-gray-100);    
+}
+
+/* I can also use the form tag instead of having a class */
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+
+
+/*==================================== End of contact ====================================*/
