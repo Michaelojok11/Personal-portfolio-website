@@ -125,4 +125,12 @@ navOpenBtn.addEventListener('click',openNavHandler)
 
 navCloseBtn.addEventListener('click',closeNavHandler)
 
-// 
+// Close nav menu on click of nav link on small screens
+
+const navItems = navMenu.querySelectorAll('*')
+if(window.innerWidth < 768) {
+    navItems.forEach(item => {
+        item.addEventListener('click', closeNavHandler)
+    })
+}
+// End of the close menu links

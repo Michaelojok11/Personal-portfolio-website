@@ -1,4 +1,4 @@
-/*==================================== General ======================================*/
+/*==================================== General ======================1fr================*/
 *{
     margin: 0;
     padding: 0; 
@@ -287,7 +287,7 @@ header{
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 7rem;
-    height: 80vh;
+    /* height: auto; */
 }
 
 .about_image {
@@ -669,7 +669,7 @@ footer {
 /*==================================== media queries ====================================*/
 
 /*==================================== medium/small devices ====================================*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     /* general styles */
 
     h1 {
@@ -682,7 +682,7 @@ footer {
         width: var(--container-width-sm);
     }
     section {
-        padding: 7rem 0;
+        padding: 4rem 0;
     }
     section > h1, p {
         width: var(--container-width-sm);
@@ -695,8 +695,10 @@ footer {
         flex-direction: column;
         gap: 0;
         width: fit-content;
-        /* nav-menu should displaynone unless clicked */
-        display: none;        
+        /* nav-menu should display none unless clicked */
+        display: none;
+
+        /* perspective: 800px;  */
     }
 
     .nav_menu li {
@@ -712,11 +714,9 @@ footer {
         text-align: center;
         box-shadow: -2rem 5rem 5rem rgba(0, 0, 0, 0.3);
     }
-    header, section, footer {
-        display: none;
-    }
+   
 
-    /* toggle icons */
+    /*============ toggle icons========== */
     .nav_toggle-open, .nav_toggle-close {
         display: inline-block;
         background: transparent;
@@ -724,7 +724,7 @@ footer {
         color: var(--color-gray-900);        
     }
 
-    /*  */
+    /*=============toggle close===========*/
     .nav_toggle-close {
         display: none;
     }
@@ -738,9 +738,23 @@ footer {
     .nav_menu li {
         transform: rotateX(90deg);
         opacity: 0;
-        animation: navkey 1s ease-in-out forwards;
+        animation: navkey 500ms ease-in-out forwards;
         transform-origin: top;
     }   
+
+    .nav_menu li:nth-child(2){
+       animation-delay: 300ms;
+    }
+    .nav_menu li:nth-child(3){
+       animation-delay: 600ms;
+    }
+    .nav_menu li:nth-child(4){
+       animation-delay: 900ms;
+    }
+    .nav_menu li:nth-child(5){
+       animation-delay: 1200ms;
+    }
+    
     @keyframes navkey {
         to {
             transform: rotateX(0deg);
@@ -748,13 +762,149 @@ footer {
         }
     }
 
+    /*============= Header ===========*/
+    /* header {
+        height: 115vh;
+    } */
+
+    .header-container {
+        display: block;
+    }
+
+    .header_content {
+        margin-top: 4rem;
+        text-align: center;
+        width: var(--container-width-sm);
+    }
+
+    .header_socials{
+        display: none;
+    }
+
+    .header_image{
+        width: 50vw;
+        aspect-ratio: 5/5;
+    } 
+
+    .header_cta .btn {
+                    
+            padding: 0.5rem ;
+            
+     
+    }
+/*=============== End of header =============*/
+
+/*================== About ==================*/
+    .about_container {
+        grid-template-columns: 1fr; 
+        width: var(--container-width-sm); 
+        /* height: 100vh;       */
+    }
+    .about_image {
+        display: none;       
+    }
+
+    .about_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about_details p {
+        margin: 0.4rem;
+    }
+    .about_details .btn {
+        display: block;
+    }
 
 
+/*================= End of about ===========*/
+
+
+
+/*================= Services ===========*/
+
+
+.services_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.services_right {
+    padding: 2px;
+    border: 0;
+}
+
+.services_right h3 {
+    margin-bottom: 0.6rem;
+}
+
+
+/*================= End of Services ===========*/
+
+
+
+/*================= Portfolio ===========*/
+/* .projects_categories {
+    gap: 0.5rem;
+} */
+
+.projects_container{
+    gap: 1rem;
+}
+
+.projects_categories li {
+    padding: 0.8rem 1rem;
+}
+
+/*================= End of portfolio ===========*/
+
+
+/*================= Testimonial / Swiper ===========*/
+.swiper {
+    width: var(--container-width-sm);
+}
+
+.swiper-wrapper{
+    padding-bottom: 3rem;
+}
+
+.swiper-slide {
+    padding: 1.5rem;
+}
+
+/*================= End of testimonial ===========*/
+
+
+/*================= Contact ===========*/
+.contact_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.contact_list{
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*================= End of contact ===========*/
+
+
+
+/*================= Footer ===========*/
+.footer_menu {
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+
+
+
+/*================= End of Footer ===========*/
 
 
 
 }
 
 
-
-/*==================================== media queries ====================================*/
+/*==================================== medium / media queries ====================================*/
