@@ -94,17 +94,6 @@ document.addEventListener('DOMContentLoaded', function() {
 /*====End *=====/
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*==================== Toggle navbar (small devices)==============*/
 
 const navMenu = document.querySelector('.nav_menu');
