@@ -142,12 +142,22 @@ themeBtn.addEventListener('click', () => {
         bodyClass.add('dark');
         // change toggle icon
         themeBtn.innerHTML = '<i class="uil uil-sun"> </i>'
+        // save theme to local storage
+        window.localStorage.setItem('theme', bodyClass);
+
     } else {
         bodyClass.remove('dark');
          // change toggle icon
         themeBtn.innerHTML = '<i class="uil uil-moon"> </i>'
+        // save theme to local storage
+        window.localStorage.setItem('theme', bodyClass);
     }
 });
+
+// Load theme on load
+window.addEventListener('load',() => {
+    document.body.className = window.localStorage.getItem('theme');
+} )
 
 /*=============================== End of theme ================================*/
 

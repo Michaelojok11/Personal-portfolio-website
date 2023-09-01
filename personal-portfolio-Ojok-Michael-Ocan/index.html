@@ -24,7 +24,10 @@
 
     <!-- swiper.js css link -->
     <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-
+    
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End of animate on scroll -->
 </head>
 <body>
     <!---================================== Navbar ===================================================-->
@@ -59,19 +62,17 @@
                         <img src="./Assets/Images/Personal-images/p1.jpg" alt="header image">
                     </div>
                 </article> -->
-                <div class="header_image">
+                <div class="header_image" data-aos="fade-up" data-aos-delay="600">
                     <div>
                         <img src="./Assets/Images/Personal-images/p1.jpg" alt="header image">
                     </div>
                 </div>
 
-                <div class="header_content">
+                <div class="header_content" data-aos="fade-in">
                     <div>
-                        <h4> Hey, I'm <span> OJOK MICHAEL OCAN </span>. And I'll </h4>
-                        <h1> Get your business online <hr> online the right way </h1>
-                        <p> Are you looking for a professional developer to put your business online? You've come
-                            to the right place! I've helped hundreds of business owners bring their ideas to life.
-                            Hire me today! </p>
+                        <h4> Hey, I'm <span> OJOK MICHAEL OCAN </span></h4>
+                        <h1> Frontend Developer / GIS Developer/ Analyst </h1>
+                        <p> "Empowering Spaces Through Code and Creativity: Uniting Frontend Development and Geographic Information Systems (GIS) Expertise to Craft Innovative Digital Experiences." </p>
                             <div class="header_cta">
                                 <a href="#contact" class="btn primary"> Hire me </a>
                                 <a href="#portfolio" class="btn primary"> Portfolio </a>
@@ -90,41 +91,7 @@
                                 </ul>                  
                             </div>               
                         </div>
-                    <!-- <ul class="header_socials">
-                            <li> <a href="https://twitter.com/" target="_blank"> <i class="uil uil-twitter-alt"></i></a>
-                            </li>
-                            <li> <a href="https://github.com/Michaelojok11" target="_blank"> <i class="uil uil-github"></i></a>
-                            </li>
-                            <li> <a href="https://linkedin.com/" target="_blank"> <i class="uil uil-linkedin-alt"></i></a>
-                            </li>
-                            <li> <a href="https://dribble.com/" target="_blank"> <i class="uil uil-dribbble"></i></a>
-                            </li>
-                        </ul> -->
                 </div>
-
-                <!-- <article class="header_content">
-                    <h4> Hey, I'm <span> OJOK MICHAEL OCAN </span>. And I'll </h4>
-                    <h1> Get your business online <hr> online the right way </h1>
-                    <p> Are you looking for a professional developer to put your business online? You've come
-                        to the right place! I've helped hundreds of business owners bring their ideas to life.
-                        Hire me today! </p>
-                        <div class="header_cta">
-                            <a href="#contact" class="btn primary"> Hire me </a>
-                            <a href="#portfolio" class="btn primary"> Portfolio </a>
-                        </div>
-                </article> -->
-        
-                <!-- header socials -->
-                <!-- <ul class="header_socials">
-                    <li> <a href="https://twitter.com/" target="_blank"> <i class="uil uil-twitter-alt"></i></a>
-                    </li>
-                    <li> <a href="https://github.com/Michaelojok11" target="_blank"> <i class="uil uil-github"></i></a>
-                    </li>
-                    <li> <a href="https://linkedin.com/" target="_blank"> <i class="uil uil-linkedin-alt"></i></a>
-                    </li>
-                    <li> <a href="https://dribble.com/" target="_blank"> <i class="uil uil-dribbble"></i></a>
-                    </li>
-                </ul> -->
             </div>
         </header>
     <!---================================== Header section ===================================================-->
@@ -140,7 +107,7 @@
                         <!-- about details -->
                         <div class="about_details">
                             <h1>About Me </h1>
-                            <div class="about_cards">
+                            <!-- <div class="about_cards">
                                 <article class="about_card">
                                     <i class="uil uil-trophy"></i>
                                     <h4>Experience</h4>
@@ -156,18 +123,23 @@
                                     <h4>Clients</h4>
                                     <small>100+ worldwide </small>
                                 </article>
-                            </div>
+                            </div> -->
                             <p>
                                 I am an individual with a diverse skill set, seamlessly blending 
                                 front-end development, Geographical Information Systems (GIS), and insightful research. 
                                 With a passion for creating visually appealing and user-centric web interfaces, 
                                 I specialize in crafting engaging digital experiences that bridge the gap between 
-                                technology and human interaction. Leveraging my expertise in GIS, I also bring 
+                                technology and human interaction. 
+
+                            </p>
+                            <p>
+                                Leveraging my expertise in GIS, I also bring 
                                 spatial data to life, transforming intricate geographic information into meaningful 
                                 insights and actionable solutions. My research skills empowers me to explore 
                                 innovative solutions and stay at the forefront of industry trends, ensuring that I deliver 
                                 excellent results in every endeavor.
                             </p>
+                                
                             <a href="./Assets/resume/Ojok Michael Ocan CV.pdf" class="btn primary" target="_blank"> Download CV</a>
                         </div>
 
@@ -635,7 +607,14 @@
   <!---================================== End of footer =================================================-->
 
 
-<!---================================== Javascript===================================================-->
+    <!---================================== Javascript===================================================-->
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({duration: 1500, offset:80 });
+    </script>
+    <!-- End of animate on scroll -->
+
            <!-- swiper js  -->
            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
            <!-- Mixitup -->
