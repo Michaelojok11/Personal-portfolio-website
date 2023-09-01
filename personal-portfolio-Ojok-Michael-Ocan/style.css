@@ -77,6 +77,12 @@ body{
 
 p, a, figcaption {
     font-size: 15px;
+    text-align: justify;
+}
+
+/* for specific paragraphs */
+.top {
+    padding-top: 15px;
 }
 
 .container {
