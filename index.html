@@ -1,478 +1,642 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fav icon -->
+    <!-- <link rel="icon" href="./Assets/Images/Personal-images/p4.jpg" type="image/jpg"> -->
+    <!-- <link rel="icon" href="./Assets/Images/Personal-images/p1.jpg" type="image/jpg"> -->
+    <!--  -->
 
-  <title> My Personal Website </title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title> Portfolio website for Ojok Michael Ocan</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Iconscout cdn / icons for projects -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- End of Iconscout cdn/icons -->
+   
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- google fonts - poppins / outfit -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- End of google fonts -->
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  </head>
-
+    <!-- swiper.js css link -->
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End of animate on scroll -->
+</head>
 <body>
+    <!---================================== Navbar ===================================================-->
+        <nav>
+            <div class="container nav_container">
+                <a href="index.html" class="nav_logo">
+                    <img src="./Assets/Images/logo/logo.jpg" alt="Nav bar logo">
+                </a>
+                <ul class="nav_menu">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-end">
-
-      <!-- <h1 class="logo"><a href="index.html">DevFolio</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar text-end">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Portfolio</a></li>             
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(Images/background/background_pic.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          
-          <h1 class="hero-title mb-4" >I am 
-            <br> Ojok Michael Ocan</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items=" UX/UI Designer, Front-end Developer, GIS Developer / Analysis"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div><!-- End Hero Section -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route ">
-      <div class="container">
-        <div class="row ">
-          <div class="col-sm-12 ">
-            <div class="box-shadow-full bg-black text-white">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row" style="padding-right: 15px;">
-
-                    <div class="about-img">
-                      <img src="Images/personalimages/personal_pics/dopeboy2.jpg" class="img-fluid rounded b-shadow-a" alt="Michael" >
-                    </div>
-                    <div class="about-info" style="font-size: larger;"> 
-                      <p><span class="title-s text-white">Name: </span> <span>Ojok Michael Ocan </span></p>
-                      <p><span class="title-s text-white">Profile: </span> <span>Front end developer / UX/UI Designer</span></p>
-                      <p><span class="title-s text-white">Email: </span> <span>michaelocan11@gmail.com</span></p>
-                      <p><span class="title-s text-white">Phone: </span> <span>(+46) 72 945-5878</span></p>
-                    </div>
-                   </div>
-
-                   <!-- skills -->
-                   <!-- <div class="skill-mf">
-                   <h3 class="text-white">
-                    My skills 
-                   </h3>
-                   <p style="font-size: larger;">
-                    Front-end skills: HTML, CSS, Boostrap, Javascript, UX/UI Design.
-                   </p>
-                   <p style="font-size: larger;"> GIS Skills: QGIS, ArcGIS, Arcpy</p>
-                  </div>  -->
-                  <!-- End of my skills -->
-
+                </ul>
+                <div class="nav_button">
+                    <button class="nav_theme-btn"><i class="uil uil-moon"></i></button>
+                    <button class="nav_toggle-open"><i class="uil uil-bars"></i></button>
+                    <button class="nav_toggle-close"><i class="uil uil-multiply"></i></i></button>
                 </div>
-
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left text-white">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead" style="text-align: justify;">
-                      I am a self-motivated aspiring developer who is passionate about creating great software products. 
-                      I am currently pursuing a master's degree in urban business and development from Malmo University, 
-                      as well as a certificate in software development (boot camp). I value teamwork and enjoy contributing 
-                      ideas to improve team delivery and customer satisfaction. I also volunteer teaching students 
-                      UX/UI design and the fundamentals of front-end development.</p>                  
-                  </div>
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left text-white">
-                        My goal
-                      </h5>
-                    </div>
-                    <p class="lead" style="text-align: justify;">
-                      I aim act creating value and contributing to sustainable development using the power of technology. 
-                      I also want to be a great software developer capable of constantly improving my skill set 
-                      and working in teams to deliver great products and project goals. I take delight in challenges, 
-                      learning new things and also supporting my peers through mentorship and training in my areas of strength.                 
-                      </p>  
-
-                      <!-- my skills -->
-                      <div class="skill-mf">
-                        <h3 class="text-white">
-                         My skills 
-                        </h3>
-                        <p style="font-size: larger;">
-                         Front-end skills: HTML, CSS, Boostrap, Javascript, UX/UI Design.
-                        </p>
-                        <p style="font-size: larger;"> GIS Skills: QGIS, ArcGIS, Arcpy</p>
-                       </div>  
-                          <!-- End of skills -->
-                          
-                    </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a" style="font-size: large;">
-                Here are the things that I offer in my line of work
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span><img src="Images/services/developer.png" alt="" width="70px" height="70px"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title"> Web Development</h2>
-                <p class="s-description text-center">
-                  I create worldclass customised softwares that serve the market needs for businesses , startups and organisations.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span><img src="Images/services/computer.png" alt="" width="70px" height="70px"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title"> UI/UX Design</h2>
-                <p class="s-description text-center">
-                  I create web designs with great user experience, stunning graphics package 
-                  alongside and they are easy to manage.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span><img src="Images/services/gis.jpg" alt="" width="70px" height="70px"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title"> GIS </h2>
-                <p class="s-description text-center">
-                  I produce maps and other displays of geographic information for further analysis and presentation.
-                </p>
-              </div>
-            </div>
-          </div>     
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Check my rescent work
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-                <!-- PORTFOLIO -->
-<!-- row portfolio 1 -->
-        <div class="row">
-            <div class="col-md-4 ">
-        <div class="portfolio1">
-          <img src="Images/portfolio/websites/personal_website1.jpg" alt="">
-          <p><a href="https://ojokmichaelocan.com/#" style="text-align: center;" > My Personal website</a> </p>
-        </div>
-      </div>
-
-          <div class="col-md-4">
-            <div class="portfolio1">
-              <img src="Images/portfolio/websites/first_website.jpg" alt="">
-              <p><a href="#" style="text-align: center;" > Green Agribusiness </a> </p>    
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="portfolio1">
-              <img src="Images/portfolio/websites/Mic_construction_company1.jpg" alt="">
-              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
-            </div>
-          </div>
+        </nav>
+    <!---================================== End of navbar ===================================================-->
 
 
-          <div class="col-md-4">
-            <div class="portfolio1">
-              <img src="Images/portfolio/websites/Recipe_website.jpg" alt="">
-              <p><a href="#" style="text-align: center;" > Simply Recipe Restaurant</a> </p>
-    
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="portfolio1">
-              <img src="Images/portfolio/UXUI Designs/visual.jpg" alt="">
-              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
-    
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio1">
-              <img src="Images/portfolio/gis/median_income_map.png" alt="">
-              <p><a href="#" style="text-align: center;" > Mic construction company website</a> </p>
-    
-            </div>
-          </div>
-
-        </div>
-
-        <!--  start of showmore  -->
-        <!-- rowdivision -->
-        <div class="rowdivision">
-          <!-- hidden row divison 1 -->
-          <div class="rowdivision1" style="visibility: hidden;">
-
-          </div>
-          <!-- row division 2 -->
-          <div class="rowdivision2" >            
-          <center>
-            <a href="websites.html"> Showmore </a>
-
-          </center>            
-
-          </div>
-
-          <!-- hidden rowdivision 3 -->
-          <div class="rowdivision3" style="visibility: hidden;">
-          </div>      
-        </div>
-        <!-- End of show more -->
-        
-      </div>
-    </section>
-    
-    <!-- End Portfolio Section -->
-
-
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="Images/personalimages/ratings/wandie1.jpg" alt="" class="rounded-circle b-shadow-a" width="150px" height="150px">
-                      <span class="author"> Wanereeba Innocent</span>
-                    </div>
-
-                    <div class="content-test ">
-                      <h3 class="text-white"> Full stack developer</h3>
-                      <p class="description lead ">
-                        Ojok Michael Ocan is an ambitious and excellent software developer. 
-                        I have worked with Michael on quite a number of projects to help 
-                        businesses grow by building their websites and softwares to enhance their productivity.
-                      </p>
-                    </div>
-                    
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="Images/personalimages/ratings/Eric.jpeg" alt="" class="rounded-circle b-shadow-a" width="150px" height="150px">
-                      <span class="author"> Okello Efprem </span>
-                    </div>
-                    <div class="content-test">
-                      <h3 class="text-white"> Front-end developer </h3>
-                      <p class="description lead">
-                        Ojok Michael Ocan is an inspiration to many. Personally I have known him since 2014 at 
-                        Makerere University when we were exploring how to utilise the power of technology to contribute to 
-                        sustainable development. He is passionate and committed to accomplishing whatever task that comes to him. 
-                        I have benefitted from his self-taught craft.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>          
-        </div> -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Message Me
-                      </h5>
-                    </div>
+    <!---================================== Header section ===================================================-->
+        <header>
+            <div class="container header-container">
+                <!-- <article class="header_image">
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
+                        <img src="./Assets/Images/Personal-images/p1.jpg" alt="header image">
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
+                </article> -->
+                <div class="header_image" data-aos="fade-up" data-aos-delay="600">
+                    <div>
+                        <img src="./Assets/Images/Personal-images/p1.jpg" alt="header image">
                     </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        If you have any questions or any business that you would like me to handle, please do not hesitate to get in touch
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> 1205 Sadelmakerebyn 6B, Bunkeflostrand, Malmo, 212 58</li>
-                        <li><span class="bi bi-phone"></span> (+46) 792 455878</li>
-                        <li><span class="bi bi-envelope"></span> michaelocan11@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
                 </div>
-              </div>
+
+                <div class="header_content" data-aos="fade-in">
+                    <div>
+                        <h4> Hey, I'm <span> OJOK MICHAEL OCAN </span></h4>
+                        <h1> Frontend Developer / GIS Developer/ Analyst </h1>
+                        <p class="top"> "Empowering Spaces Through Code and Creativity: Uniting Frontend Development and Geographic Information Systems (GIS) Expertise to Craft Innovative Digital Experiences." </p>
+                            <div class="header_cta">
+                                <a href="#contact" class="btn primary"> Hire me </a>
+                                <a href="#portfolio" class="btn primary"> Portfolio </a>
+                                
+                                <ul class="header_socials">
+                                    <li> <a href="https://github.com/Michaelojok11" target="_blank"> <i class="uil uil-github"></i></a>
+                                    </li>
+                                    <li> <a href="https://linkedin.com/" target="_blank"> <i class="uil uil-linkedin-alt"></i></a>
+                                    </li>
+                                    <!-- Other socials -->
+                                    <!-- <li> <a href="https://twitter.com/" target="_blank"> <i class="uil uil-twitter-alt"></i></a>
+                                    </li> -->
+                                    <!-- <li> <a href="https://dribble.com/" target="_blank"> <i class="uil uil-dribbble"></i></a>
+                                    </li> -->
+                                    <!-- End of other socials -->
+                                </ul>                  
+                            </div>               
+                        </div>
+                </div>
             </div>
-          </div>
+        </header>
+    <!---================================== Header section ===================================================-->
+
+    <!---================================== About section ===================================================-->
+        <section class="about" id="about">
+                        <div class="container about_container">
+                        <!-- about image -->
+                        <div class="about_image">
+                            <img src="./Assets/Images/about/ab1.jpg" alt="">
+                        </div>
+
+                        <!-- about details -->
+                        <div class="about_details">
+                            <h1>About Me </h1>
+                            <!-- <div class="about_cards">
+                                <article class="about_card">
+                                    <i class="uil uil-trophy"></i>
+                                    <h4>Experience</h4>
+                                    <small>8+ years </small>
+                                </article>
+                                <article class="about_card">
+                                    <i class="uil uil-swatchbook"></i>
+                                    <h4>Projects</h4>
+                                    <small>220+ completed </small>
+                                </article>
+                                <article class="about_card">
+                                    <i class="uil uil-users-alt"></i>
+                                    <h4>Clients</h4>
+                                    <small>100+ worldwide </small>
+                                </article>
+                            </div> -->
+                            <p>
+                                I am an individual with a diverse skill set, seamlessly blending 
+                                front-end development, Geographical Information Systems (GIS), and insightful research. 
+                                With a passion for creating visually appealing and user-centric web interfaces, 
+                                I specialize in crafting engaging digital experiences that bridge the gap between 
+                                technology and human interaction. 
+
+                            </p>
+                            <p>
+                                Leveraging my expertise in GIS, I also bring 
+                                spatial data to life, transforming intricate geographic information into meaningful 
+                                insights and actionable solutions. My research skills empowers me to explore 
+                                innovative solutions and stay at the forefront of industry trends, ensuring that I deliver 
+                                excellent results in every endeavor.
+                            </p>
+                                
+                            <a href="./Assets/resume/Ojok Michael Ocan CV.pdf" class="btn primary" target="_blank"> Download CV</a>
+                        </div>
+
+                        </div>
+
+
+        </section>
+    <!---================================== End of About section ===================================================-->
+
+
+    <!---================================== Services section ===================================================-->
+        <section class="services" id="services">
+                        <h1>Services </h1>
+                        <p> These are the areas of my expertise </p>
+                        <div class="container services_container">
+                            <ul class="services_left"> 
+                                <!-- Front end -->
+                                <li class="service_item frontend active">
+                                    <span> <i class="uil uil-desktop-alt"></i> </span>
+                                    <div>
+                                        <h3>Frontend development </h3>
+                                        <!-- <p> 14 projects  </p> -->
+                                    </div>
+                                </li>
+                                <!--  -->
+                                <!-- <li class="service_item ux_design">
+                                    <span> <i class="uil uil-desktop-alt"></i> </span>
+                                    <div>
+                                        <h3> UI/UX Design </h3>
+                                        <p> 15 projects  </p>
+                                    </div>
+                                </li> -->
+                                <li class="service_item gis">
+                                    <span> <i class="uil uil-location-point"></i> </span>
+                                    <div>
+                                        <h3> GIS </h3>
+                                        <!-- <p> 25 projects  </p> -->
+                                    </div>
+                                </li>
+                                <!-- <li class="service_item research">
+                                    <span><i class="uil uil-telescope"></i></span>
+                                    <div>
+                                        <h3> Research projects </h3>
+                                        <p> 10 projects  </p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <article class="services_right">
+                                <h3> Frontend Development </h3>
+                                <!-- <p>I specialize in front-end development, using HTML, CSS, and JavaScript to bring design concepts to life. 
+                                    My focus on user experience means I prioritize aesthetics and seamless functionality. I excel in 
+                                    optimizing performance, ensuring compatibility, and integrating APIs for enhanced user satisfaction.
+                                </p>
+                                <p>
+                                    As a front-end developer, I transform designs into interactive web experiences with HTML, CSS, and JavaScript. 
+                                    I prioritize visual appeal and user-friendly functionality, implementing animations for engagement. 
+                                    I'm skilled in optimizing performance, ensuring cross-browser compatibility, and integrating APIs. 
+                                    My responsive designs guarantee consistent experiences on all devices.
+                                </p> 
+                                <p>
+                                    <strong> Key skills </strong>
+                                    HTML, CSS, Javascript, react, Bootstrap
+                                </p> -->
+
+                            </article>
+                        </div>
+        </section>
+
+    <!---================================== End of services section ===================================================-->
+
+
+
+    <!---================================== Portfolio section ===================================================-->
+    <section class="portfolio" id="portfolio">
+        <h1>Recent projects</h1>
+        <p>Check Out my rescent work </p>
+        <ul class="projects_categories">
+            <li class="active" data-filter="*"> All </li>
+            <li data-filter=".frontend">Frontend </li>
+            <!-- <li data-filter=".ux_design">UX/UI Design</li> -->
+            <li data-filter=".gis">GIS</li>
+            <!-- <li data-filter=".research">Research</li> -->
+        </ul>
+        <div class="container projects_container" id="projectContainer">
+            <article class="project frontend mix" data-order="1">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/frontend/p3.png" alt="project image 1">
+                </div>
+                <h3> Personal Portfolio website </h3>
+                <p>
+                    The website presents my skills and work in a visually appealing and user-friendly manner, 
+                    making it easy for people to learn about my expertise, explore my projects, and contact me for potential 
+                    collaborations or inquiries. <br>
+                    <strong> Tools and technologies used:</strong> HTML, CSS, google fonts, Javascript, Swiper-JS, Mixitup, AOS and external libraries for icons and fonts.
+                </p>
+               
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://github.com/Michaelojok11/Personal-portfolio-website.git" class="btn sm" target="_blank"> Github </a>
+                </div>
+                <div>
+                    <a href="https://ojokmichaelocan.com/" target="_blank">Link to website</a>
+                </div>
+            </article>
+            <article class="project frontend mix" data-order="2">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/frontend/m3.png" alt="project image 1">
+                </div>
+                <h3> Movie seat booking app</h3>
+                <p>
+                    The movie booking app is a web-based platform designed to facilitate the reservation of movie theater seats. 
+                    Users can select their preferred movie from a list, visually choose available seats within the theater, 
+                    and view the total price based on their seat selections. The app provides an interactive and user-friendly 
+                    interface for booking movie tickets, enhancing the overall cinema experience for customers. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project frontend mix" data-order="3">
+                <div class="project_image">
+                    <img src="./Assets/assets/project3.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project frontend mix" data-order="4">
+                <div class="project_image">
+                    <img src="./Assets/assets/project4.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="5">
+                <div class="project_image">
+                    <img src="./Assets/assets/project5.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="6">
+                <div class="project_image">
+                    <img src="./Assets/assets/project6.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project frontend mix" data-order="12">
+                <div class="project_image">
+                    <img src="./Assets/assets/project5.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="6">
+                <div class="project_image">
+                    <img src="./Assets/assets/project6.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="7">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/gis/car crimes in Malmo.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="8">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/gis/Gross income map.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
+            <article class="project gis mix" data-order="9">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/gis/Heatmap of Malmo.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article> 
+            <article class="project gis mix" data-order="10">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/gis/median_income_map.png" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article> 
+            <article class="project gis mix" data-order="11">
+                <div class="project_image">
+                    <img src="./Assets/portfolio/gis/Reference map of Skane.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article> 
+            <article class="project frontend mix" data-order="13">
+                <div class="project_image">
+                    <img src="./Assets/assets/project8.jpg" alt="project image 1">
+                </div>
+                <h3>Project one 1 (Frontend development)</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ultricies neque, 
+                    nec aliquam enim. In vel urna ut nisl laoreet cursus. Suspendisse potenti. Fusce nec lectus 
+                    eget libero molestie facilisis. Nam et arcu nec urna sollicitudin viverra eu in nisl. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </p>
+                <div class="portfolio_cta">
+                    <a href="https://ojokmichaelocan.com/" class="btn primary" target="_blank"> Demo </a>
+                    <a href="https://ojokmichaelocan.com/" class="btn sm" target="_blank"> Github </a>
+                </div>
+            </article>
         </div>
-      </div>
-    </section><!-- End Contact Section -->
+         <button id="showMoreButton" class="btn primary"> Show More </button> 
+    </section>
 
-  </main><!-- End #main -->
+    <!---================================ End of portfolio ===================================================-->
+       
 
-  <!-- ======= Footer ======= -->
-  <footer class="bg-black">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Ojok Michael Ocan</strong>. All Rights Reserved</p>
-            <div class="credits">
-              Designed by <a href="https://ojokmichaelocan.com/"> Ojok Michael Ocan</a>
+    <!---================================== Recommendation ===================================================-->
+    <section class="swiper">
+            <h1> Recommendations </h1>
+            <p> This is what professionals and clients say about me</p>
+            <div class="swiper-wrapper">
+                <figure class="swiper-slide">
+                    <figcaption>
+                        Ojok Michael Ocan is an individual with multiple experiences 
+                        in the field of Frontend and Geogrpahical Information Systems
+                    </figcaption>
+                    <div class="swiper_client">
+                        <div class="swiper_client-avatar">
+                            <img src="./Assets/Images/recommendation/r2.jpg" alt="Client one">
+                        </div>
+                        <div class="swiper_client-details">
+                            <h5> Wenareeba Innocent </h5>
+                            <small> Software Engineer </small>                        
+                        </div>
+                    </div>                   
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        Ojok Michael Ocan is an individual with multiple experiences 
+                        in the field of Frontend and Geogrpahical Information Systems
+                    </figcaption>
+                    <div class="swiper_client">
+                        <div class="swiper_client-avatar">
+                            <img src="./Assets/Images/recommendation/r3.jpeg" alt="Client one">
+                        </div>
+                        <div class="swiper_client-details">
+                            <h5> Okwonga Eric </h5>
+                            <small> GIS developer </small>                        
+                        </div>
+                    </div>                   
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        Ojok Michael Ocan is an individual with multiple experiences 
+                        in the field of Frontend and Geogrpahical Information Systems
+                    </figcaption>
+                    <div class="swiper_client">
+                        <div class="swiper_client-avatar">
+                            <img src="./Assets/assets/avatar1.jpg" alt="Client one">
+                        </div>
+                        <div class="swiper_client-details">
+                            <h5> Mana Ana McBrown </h5>
+                            <small> UX/UI Design </small>                        
+                        </div>
+                    </div>                   
+                </figure>
+                <!-- <figure class="swiper-slide">
+                    <figcaption>
+                        Ojok Michael Ocan is an individual with multiple experiences 
+                        in the field of Frontend and Geogrpahical Information Systems
+                    </figcaption>
+                    <div class="swiper_client">
+                        <div class="swiper_client-avatar">
+                            <img src="./Assets/assets/avatar1.jpg" alt="Client one">
+                        </div>
+                        <div class="swiper_client-details">
+                            <h5>Mana Ana McBrown </h5>
+                            <small> Actress </small>                        
+                        </div>
+                    </div>                   
+                </figure> -->
+                <figure class="swiper-slide">
+                    <figcaption>
+                        Ojok Michael Ocan is an individual with multiple experiences 
+                        in the field of Frontend and Geogrpahical Information Systems
+                    </figcaption>
+                    <div class="swiper_client">
+                        <div class="swiper_client-avatar">
+                            <img src="./Assets/Images/recommendation/r1.jpg" alt="Client one">
+                        </div>
+                        <div class="swiper_client-details">
+                            <h5> Mikey </h5>
+                            <small> GIS/Frontend developer </small>                        
+                        </div>
+                    </div>                   
+                </figure>
             </div>
-          </div>
+            <!--  pagination -->
+            <div class="swiper-pagination"></div> 
+    </section>
+        
+    <!---================================== Recommendation ===================================================-->
+    
+    
+    <!---================================== Contact =======================================================-->
+    
+    <section class="contact" id="contact">
+        <div class="container contact_container">
+            <ul class="contact_list">
+                <li> 
+                    <a href="mailto:michaelocan11@gmail.com" class="contact_list-item" target="_blank">
+                    <i class="uil uil-envelope"></i> 
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://www.messenger.com/t/ojok.michael.94" class="contact_list-item" target="_blank">
+                     <i class="uil uil-facebook-messenger"></i> 
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://wa.me/+46729455878" class="contact_list-item" target="_blank">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+                </li>
+                <li> 
+                    <a href="tel:+46729455878" class="contact_list-item" target="_blank">
+                        <i class="uil uil-phone-alt"></i> 
+                    </a>
+                </li>
+            </ul>
+            <form action="https://formsubmit.co/d933bbaca69adc5f0fa64ce884bb36b4" method="POST" class="contact_form" target="_blank">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="text" name="Email" placeholder="Email Address">
+                <textarea  rows="7" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn" target="_blank"> Send </button>
+            </form>
         </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </section>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    
+   <!---================================== End of contact=================================================-->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
+
+
+
+   <!---================================== Footer =======================================================-->
+    <footer>
+        <div class="container footer_container">
+            <ul class="footer_menu">
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#about"> About </a></li>
+                <li> <a href="#services"> Services </a></li>
+                <li> <a href="#portfolio"> Portfolio </a></li>
+                <li> <a href="#contact"> Contact </a></li>
+            </ul>
+            <ul class="footer_socials">
+                <li> <a href="https://github.com/Michaelojok11" target="_blank"> <i class="uil uil-github"></i></a>
+                </li>
+                <li> <a href="https://linkedin.com/" target="_blank"> <i class="uil uil-linkedin-alt"></i></a>
+                </li>
+                 <li> <a href="https://twitter.com/" target="_blank"> <i class="uil uil-twitter-alt"></i></a>
+                </li> 
+                <li> <a href="https://dribble.com/" target="_blank"> <i class="uil uil-dribbble"></i></a>
+                </li> 
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <small> 2023 Ojok Michael Ocan &copy; All Rights Reserved. </small>
+        </div>
+    </footer>
+  <!---================================== End of footer =================================================-->
+
+
+    <!---================================== Javascript===================================================-->
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({duration: 1500, offset:80 });
+    </script>
+    <!-- End of animate on scroll -->
+
+           <!-- swiper js  -->
+           <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+           <!-- Mixitup -->
+            <script src="./mixitup-libraries/patrickkunka-mixitup-61dac05/dist/mixitup.min.js"></script>       
+            
+            <script src="data.js"></script>    
+
+            <script src="script.js"></script>
+    <!---================================== End of Javascript ===============================================-->
+            
+
+    
 </body>
-
 </html>
