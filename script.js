@@ -66,6 +66,8 @@ const swiper = new Swiper('.swiper', {
 
   });
 
+
+  
 //   snipet code
 document.addEventListener('DOMContentLoaded', function() {
     const showMoreButton = document.getElementById('showMoreButton');
@@ -88,6 +90,19 @@ document.addEventListener('DOMContentLoaded', function() {
         showMoreButton.style.display = 'none';
     });
 });
+
+/*====End *=====/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*==================== Toggle navbar (small devices)==============*/
