@@ -13,8 +13,8 @@
 .gis_container1,
 .gis_container2 {
     flex: 1; /* Distribute available space evenly between the divs */
-    padding: 5px; /* Add spacing inside each div */
-    border: 1px solid #ccc; /* Add a border for clarity */
+    padding: 20px; /* Add spacing inside each div */
+    
 }
 
 
