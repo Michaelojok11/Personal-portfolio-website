@@ -64,42 +64,30 @@
 <section>
     <div class="gis_container">
         <div class="gis_container1">
-           <img src="./Assets/portfolio/gis/Site-suitability-Puerto Rico.jpg" alt="">
+           <img src="./Assets/portfolio/gis/car crimes in Malmo.jpg" alt="">
         </div>
         <div class="gis_container2">
-            <h3>Site Suitability analysis for hazardous site in Puerto Rico</h3>
-            <strong> Purpose:</strong> Site suitability analysis for the federal government of Puerto Rico to 
-            locate a hazardous material facility with the following criteria:
+            <h3>Map showing car crime rates in Malmo 2016 </h3>
+            <strong> Purpose:</strong> To highlight the areas with the highest and lowest prevalence of car theft:
             <br>
-            - The sites must be only in these three hydrological zones:Interior Puerto Rico,
-            Cibuco Guajataca or Culebrinas-Guanajibo.
-            <br>
-            - Must be within 2 miles of roads that has a road type (RDLNTYPE) of 2, OR must be within 5 miles of railroads.
-            <br>
-            - Must NOT be within 5 miles of airports.
-            <br>
-            - Must NOT be within 10 miles of dams.  
+            The map shows the occurance of car crimes in Malmo in the different areas of Malmo.
+            The areas of Central Malmo showed the highest car crime rate.
+            Parts extending to the Northern parts of Malmo, North-western (harbour) and parts of North eastern
+            also had quite high car crime rates. However, other parts of Malmo showed very few car crime rate. 
+            The high car crime rate in the central region and other parts could be attributed to the high daily larger population 
+            in these areas i.e areas around central region. 
             <br>
             <h3>Inspiration </h3>
             <p>This was inspired by the high cases of violence, crimes and gun 
-                shootings in Malmo over the years. Provided I had access to the various data for Malmo,
-                I thought of looking into this issue as well.
+                shootings in Malmo over the years. I had access to Malmo data and I thought it was reasonable to look into 
+                the various car theft in Malmo.
               </p>
             <h3>Process</h3>
-The vector data of airports, hydro-regions, railroads and roads were added to Arcgis Pro.
-The 3 hydro-zones of interests were selected by location and the data were saved in a shapefile.
-The same process was carried out for dams and airports within the hydro zones of interests.
+    The vector data of airports, hydro-regions, railroads and roads were added to Arcgis Pro.
+    The 3 hydro-zones of interests were selected by location and the data were saved in a shapefile.
+    The same process was carried out for dams and airports within the hydro zones of interests.
 
-•	Merge data management tools.
-•	Roads and rail in the area of interests were then merged.
-•	2 miles buffer zones were created around the merged roads and rail
-•	5 miles buffer created around the airports
-•	10 miles buffer created around the dams.
--	Then we create a union airport buffer and dams buffer using the union analysis tool to create a union.
--	Upon creating this, we can therefore use the erase analysis tool. Combines the two layers and keeps the areas that are not overlapping. These areas are considered the hazardous areas which are not suitable for our analysis.
--	Remember also that the areas should also be within the three select hydrological zones. 
--	A clip tool was therefore used to keep the areas which are within the 3 hydrological zones (By clipping the hazardous sites and the areas of interests i.e the 3 hydrological zones)
--	Using the measure distance tool to verify the distances and if we have met all the criteria
+
 
         </div>
       </div> 
