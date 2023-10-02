@@ -1,0 +1,21 @@
+ /* ============================= GIS page ========================= */
+
+ .gis_container {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Space the divs evenly on the same row */
+    align-items: center; /* Vertically center-align the divs if needed */
+    background-color: #f9f9f9; /* Add a background color for clarity */
+    padding: 10px; /* Add spacing around the divs */
+     /* Add margin-top as needed */
+}
+
+/* Style the individual divs */
+.gis_container1,
+.gis_container2 {
+    flex: 1; /* Distribute available space evenly between the divs */
+    padding: 5px; /* Add spacing inside each div */
+    border: 1px solid #ccc; /* Add a border for clarity */
+}
+
+
+/* ============================= End of GIS page =================== */

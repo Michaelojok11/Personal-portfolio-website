@@ -532,6 +532,7 @@ li.mixitup-control-active {
 /* =========================================End of portfolio ========================================== */
 
 
+
 /* ========================================= What people say / Recommendations ================================== */
 #showMoreButton {
     display: block;
@@ -801,6 +802,8 @@ footer {
             opacity: 1;
         }
     }
+
+   
 
     /*============= Header ===========*/
     /* header {
