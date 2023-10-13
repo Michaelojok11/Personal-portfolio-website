@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fav icon -->
+    <!-- <link rel="icon" href="./Assets/Images/Personal-images/p4.jpg" type="image/jpg"> -->
+    <!-- <link rel="icon" href="./Assets/Images/Personal-images/p1.jpg" type="image/jpg"> -->
+    <!--  -->
+
+    <title> Portfolio website for Ojok Michael Ocan</title>
+
+    <!-- Iconscout cdn / icons for projects -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- End of Iconscout cdn/icons -->
+
+    <!-- gis links  -->
+    <link rel="stylesheet" href="gis.css">
+    <!-- End of gis links -->
+   
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts - poppins / outfit -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- End of google fonts -->
+
+    <!-- swiper.js css link -->
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End of animate on scroll -->
+</head>
+<body>
+    <!---================================== Navbar ===================================================-->
+        <nav>
+            <div class="container nav_container">
+                <a href="index.html" class="nav_logo">
+                    <img src="./Assets/Images/logo/logo.jpg" alt="Nav bar logo">
+                </a>
+                <ul class="nav_menu">
+                    <li> <a href="index.html">Home</a></li>
+                    <!-- <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li> -->
+
+                </ul>
+                <div class="nav_button">
+                    <button class="nav_theme-btn"><i class="uil uil-moon"></i></button>
+                    <button class="nav_toggle-open"><i class="uil uil-bars"></i></button>
+                    <button class="nav_toggle-close"><i class="uil uil-multiply"></i></i></button>
+                </div>
+            </div>
+        </nav>
+    <!---================================== End of navbar ===================================================-->
+
+
+   
+
+    <!---================================== Portfolio section ===================================================-->
+<section>
+    <div class="gis_container">
+        <div class="gis_container1">
+           <img src="./Assets/portfolio/gis/COVID-19-dashboard.png" alt="">
+        </div>
+        <div class="gis_container2">
+            <h3>Site Suitability analysis for hazardous site in Puerto Rico</h3>
+            <strong> Purpose:</strong> Site suitability analysis for the federal government of Puerto Rico to 
+            locate a hazardous material facility with the following criteria:
+            <br>
+            - The sites must be only in these three hydrological zones:Interior Puerto Rico,
+            Cibuco Guajataca or Culebrinas-Guanajibo.
+            <br>
+            - Must be within 2 miles of roads that has a road type (RDLNTYPE) of 2, OR must be within 5 miles of railroads.
+            <br>
+            - Must NOT be within 5 miles of airports.
+            <br>
+            - Must NOT be within 10 miles of dams.  
+            <br>
+            <h3>Inspiration </h3>
+            <p>This was part of a personal research project to explore the different ways of 
+                using data and also the fact that the people in Puerto Rico dispose of about 5.56 pounds of waste
+                per person per day which is more than the national average in the United States of America.
+              </p>
+            <h3>Process</h3>
+The vector data of airports, hydro-regions, railroads and roads were added to Arcgis Pro.
+The 3 hydro-zones of interests were selected by location and the data were saved in a shapefile.
+The same process was carried out for dams and airports within the hydro zones of interests.
+Roads and rail data in the areas of interests were then merged.
+2 miles buffer zones were created around the merged roads and rail.
+5 miles buffer zones were then created around the airports. 
+10 miles buffer were also created around the dams.
+Unions created around the airport buffer and dams buffer using the union analysis tools.
+Erase tools were used to erase the intersection. It combined the two layers and kept the areas that are not overlapping.
+These areas are considered the hazardous areas which are not suitable for setting up the areas.
+Note:Remember also that the areas should also be within the three select hydrological zones. 
+A clip tool was therefore used to keep the areas which are within the 3 hydrological zones 
+(By clipping the hazardous sites and the areas of interests i.e the 3 hydrological zones)
+Using the measure distance tool to verify the distances and if we have met all the criteria.
+The map details such as legends, key, scale and headings were then added.
+<Strong>Tools and Technologies used: 
+    <br>
+</Strong> Arcgis Pro, merge tools, buffer tool, clip tool, 
+union tool,clip tool, erase tool.
+
+        </div>
+      </div> 
+</section>
+     
+    <!---================================ End of portfolio ===================================================-->
+       
+
+   <!---================================== Footer =======================================================-->
+    <footer>
+        <div class="container footer_container">
+            <ul class="footer_menu">
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#about"> About </a></li>
+                <li> <a href="#services"> Services </a></li>
+                <li> <a href="#portfolio"> Portfolio </a></li>
+                <li> <a href="#contact"> Contact </a></li>
+            </ul>
+            <ul class="footer_socials">
+                <li> <a href="https://github.com/Michaelojok11" target="_blank"> <i class="uil uil-github"></i></a>
+                </li>
+                <li> <a href="https://linkedin.com/" target="_blank"> <i class="uil uil-linkedin-alt"></i></a>
+                </li>
+                 <li> <a href="https://twitter.com/" target="_blank"> <i class="uil uil-twitter-alt"></i></a>
+                </li> 
+                <li> <a href="https://dribble.com/" target="_blank"> <i class="uil uil-dribbble"></i></a>
+                </li> 
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <small> 2023 Ojok Michael Ocan &copy; All Rights Reserved. </small>
+        </div>
+    </footer>
+  <!---================================== End of footer =================================================-->
+
+
+    <!---================================== Javascript===================================================-->
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({duration: 1500, offset:80 });
+    </script>
+    <!-- End of animate on scroll -->
+
+           <!-- swiper js  -->
+           <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+           <!-- Mixitup -->
+            <script src="./mixitup-libraries/dist/mixitup.min.js"></script>       
+            
+            <script src="data.js"></script>    
+
+            <script src="script.js"></script>
+    <!---================================== End of Javascript ===============================================-->
+            
+
+    
+</body>
+</html>
